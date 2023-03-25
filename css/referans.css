@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tasiyici {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.mh-button {
+    display: block;
+    padding: 1rem;
+    font-size: .7rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: #cccccc;
+    color: #000;
+    z-index: 999;
+    border-radius: 1rem 1rem 0 1rem;
+}
+.title {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.referans-alan {
+    display: flex;
+    flex-wrap: wrap
+}
+.referans-alan figure {
+    width: 16.66%;
+    height: 90px;
+    padding: 1em;
+    position: relative;
+}
+.referans-alan figure img {
+    width: 90%;
+    position: absolute;
+    transition: all ease-in 300ms;
+}
+.referans-alan figure:hover img {
+    width: 100%;
+}

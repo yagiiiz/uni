@@ -107,3 +107,43 @@ h1, h2, h3, h4, h5, h6,
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     color: rgb(113 107 205 / 90%);
 }
+
+/* FOOTER İLETİŞİM */
+a {
+    text-decoration: none;
+}
+.section .referans,
+.section.iletisim {
+    padding: 5rem 0;
+}
+.iletisim-alan {
+    display: flex;
+    gap: 2rem;
+}
+#iletisim-form input,
+#iletisim-form textarea,
+#iletisim-form select {
+    display: block;
+    width: 300px;
+    margin-bottom: 1rem;
+    padding: .4rem;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FOOTER */
+footer {
+    background: rgb(227,225,255);
+    background: linear-gradient(335deg, rgba(227,225,255,1) 0%, rgba(216,216,255,1) 35%, rgba(255,255,255,1) 100%);
+    padding: 5rem;
+}
+.container .row a:hover{
+    text-decoration: underline;
+}
+footer .copyright {
+    text-align: center;
+    font-size: .8rem;
+    margin-top: 2rem;
+}
